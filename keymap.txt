@@ -1,0 +1,49 @@
+note: to enable eslint, I must do 
+elint --init 
+in my project directory
+
+
+nvim keymap:
+
+C-j   ->  diagnostic error next
+C-k   ->  diagnostic error previous
+space-e -> open up coc-explorer
+
+
+tmux:
+
+C-b h,j,k,l  -> navigate between panes
+
+C-b C-h,j,k,l -> navigate between windows
+
+C-b d    -> detach session from terminal(not exiting)
+
+tmux in terminal:
+tmux a #  -> attach last detached session
+tmux new -s session_name -> create new session
+
+
+vifm -> file manager
+
+type vifm in terminal
+
+C-w s form one pane instead
+
+:q to quit vifm
+
+Tab -> switch between two panes
+
+map esp to capslock
+setxkbmap -option caps:escape
+
+
+setxkbmap -option -> to clear any existing options
+
+
+
+
+
+
+
+
+
